@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Djoula-shop:Votre Boutique de vente</title>
+	<style>
+		#entete{
+			background-color: whitesmoke;
+			color: springgreen;
+			text-align: center;
+			font-size: 2em;
+			font-weight: bold;
+			font-family: tacoma, arial, verdana;
+		}
+
+		#vetement{
+			width: 100%;
+			background-color: whitesmoke;
+			color: springgreen;
+			text-align: center;
+			text-transform: uppercase;
+			font-weight: bold;
+			font-size: 2em;
+			padding-top: 10px;
+			margin-top: 10px;
+		}
+
+		.tradition{
+			background-color: whitesmoke;
+			margin-top: 15px;
+		}
+
+		.coutume{
+			width: 200px;
+			height: 320px;
+			background-color: whitesmoke;
+			color: springgreen;
+			text-align: center;
+			float: left;
+			padding: 8px;
+			margin: 11px;
+		}
+
+		.T{
+			width: 100%;
+			height: 230px;
+
+		}
+
+		.tradition2{
+			background-color: whitesmoke;
+			margin-top: 15px;
+		}
+
+		.coutume2{
+			width: 200px;
+			height: 320px;
+			background-color: whitesmoke;
+			color: springgreen;
+			text-align: center;
+			float: left;
+			padding: 8px;
+			margin: 11px;
+		}
+
+		.T2{
+			width: 100%;
+			height: 230px; 
+		}
+
+		#costume{
+			width: 100%;
+			background-color: whitesmoke;
+			color: springgreen;
+			text-align: center;
+			text-transform: uppercase;
+			font-weight: bold;
+			font-size: 2em;
+			padding-top: 10px;
+			margin-top: 10px;
+		}
+
+		.costard{
+			background-color: whitesmoke;
+			margin-top: 15px;
+		}
+
+		.veste{
+			width: 200px;
+			height: 320px;
+			background-color: whitesmoke;
+			color: springgreen;
+			text-align: center;
+			float: left;
+			padding: 8px;
+			margin: 11px;
+		}
+
+		.V{
+			width: 100%;
+			height: 230px;
+		}
+
+		#chemise{
+			width: 100%;
+			background-color: whitesmoke;
+			color: springgreen;
+			text-align: center;
+			text-transform: uppercase;
+			font-weight: bold;
+			font-size: 2em;
+			padding-top: 10px;
+			margin-top: 10px;
+		}
+
+		.t-shirt{
+			background-color: whitesmoke;
+			margin-top: 15px;
+		}
+
+		.shirt{
+			width: 200px;
+			height: 320px;
+			background-color: whitesmoke;
+			color: springgreen;
+			text-align: center;
+			float: left;
+			padding: 8px;
+			margin: 11px;
+		}
+
+		.h{
+			width: 100%;
+			height: 230px;
+		}
+
+		.t-shirt2{
+			background-color: whitesmoke;
+			margin-top: 15px;
+		}
+
+		.shirt2{
+			width: 200px;
+			height: 320px;
+			background-color: whitesmoke;
+			color: springgreen;
+			text-align: center;
+			float: left;
+			padding: 8px;
+			margin: 11px;
+		}
+
+
+		.h2{
+			width: 100%;
+			height: 230px;
+		}
+
+		#pantalon{
+				width: 100%;
+			background-color: whitesmoke;
+			color: springgreen;
+			text-align: center;
+			text-transform: uppercase;
+			font-weight: bold;
+			font-size: 2em;
+			padding-top: 10px;
+			margin-top: 10px;
+		}
+		.painter{
+			background-color: whitesmoke;
+			margin-top: 15px;
+		}
+		.paint{
+			width: 200px;
+			height: 320px;
+			background-color: whitesmoke;
+			color: springgreen;
+			text-align: center;
+			float: left;
+			padding: 8px;
+			margin: 11px;
+		}
+		.p{
+			width: 100%;
+			height: 230px;
+		}
+
+
+		#chaussure{
+			width: 100%;
+			background-color: whitesmoke;
+			color: springgreen;
+			text-align: center;
+			text-transform: uppercase;
+			font-weight: bold;
+			font-size: 2em;
+			padding-top: 10px;
+			margin-top: 10px;
+		}
+
+		.padè{
+			background-color: whitesmoke;
+			margin-top: 15px;
+		}
+
+		.sankiri{
+			width: 200px;
+			height: 320px;
+			background-color: whitesmoke;
+			color: springgreen;
+			text-align: center;
+			float: left;
+			padding: 8px;
+			margin: 11px;
+		}
+
+		.s{
+			width: 100%;
+			height: 230px;
+		}
+
+		#montre{
+					width: 100%;
+			background-color: whitesmoke;
+			color: springgreen;
+			text-align: center;
+			text-transform: uppercase;
+			font-weight: bold;
+			font-size: 2em;
+			padding-top: 10px;
+			margin-top: 10px;
+		}
+		.watch{	
+			background-color: whitesmoke;
+			margin-top: 15px;
+		}
+		.mont{
+			width: 200px;
+			height: 320px;
+			background-color: whitesmoke;
+			color: springgreen;
+			text-align: center;
+			float: left;
+			padding: 8px;
+			margin: 11px;
+		}
+		.m{
+			width: 100%;
+			height: 230px;
+		}
+
+
+	</style>
+</head>
+<body>
+
+	<main style="max-width: 1200px; margin: auto;">
+			<div id="entete">
+				<img src="img/c6.jpg" style=" width: 250px; height: 200px; float: left; ">
+				<img src="img/ch1.jpg" style=" width: 160px; height: 130px; float: left;">
+				<img src="img/p1.jpg" style=" width: 160px; height: 130px; float: left;">
+				<div style="text-transform: uppercase; padding-top: 50px; " >Djoula-shop votre boutique de vente de vetements</div>
+				<div>Achetez vos vetements sur mesure</div>
+				<br style="clear: both;">
+			</div>
+		<!-- Debut de Vetement tradionnelle -->
+			<div id="vetement">Vetements Tradionnelles Homme et Femme </div>
+
+			<div class="tradition">
+				<div class="coutume">
+					<img src="img/af3.JPG" class="T"><br><br>
+					Nom : Mackysall <br>
+					Prix : 500.0000 GNF <br><br>
+					<button>Achetez</button>
+				</div>
+				<div class="coutume">
+					<img src="img/af1.JPG" class="T"><br><br>
+					Nom : Mackysall <br>
+					Prix : 600.000 GNF <br><br>
+					<button>Achetez</button>
+				</div>
+				<div class="coutume">
+					<img src="img/af2.JPG" class="T"><br><br>
+					Nom : Mackysall <br>
+					Prix : 700.000 GNF <br><br>
+					<button>Achetez</button>
+				</div>
+				<div class="coutume">
+					<img src="img/af5.JPG" class="T"> <br><br>
+					Nom : Mackysall <br>
+					Prix : 800.000 GNF <br><br>
+					<button>Achetez</button>
+				</div>
+				<div class="coutume">
+					<img src="img/af4.JPG" class="T"><br><br>
+					Nom : Tissu Mackysall <br>
+					Prix : 900.000 GNF <br><br>
+					<button>Achetez</button>
+				</div>
+				<br style="clear:both;">
+				<div class="coutume2">
+					<img src="img/af8.JPG" class="T2"> <br><br>
+					Nom : Bazin <br>
+					Prix : 600.000 GNF <br><br>
+					<button>Achetez</button>
+				</div>
+				<div class="coutume2">
+					<img src="img/af7.JPG" class="T2"> <br><br>
+					Nom : Wax <br>
+					Prix : 700.000 GNF <br><br>
+					<button>Achetez</button>
+				</div>
+				<div class="coutume2">
+					<img src="img/af10.JPG" class="T2"> <br><br>
+					Nom : Wax <br>
+					Prix : 800.000 GNF <br><br>
+					<button>Achetez</button>
+				</div>
+				<div class="coutume2">
+					<img src="img/af9.JPG" class="T2"> <br><br>
+					Nom : Mackysall <br>
+					Prix : 900.000 GNF <br><br>
+					<button>Achetez</button>
+				</div>	
+				<div class="coutume2">
+					<img src="img/af6.JPG" class="T2"> <br><br>
+					Nom : Mackysall <br>
+					Prix : 1.000.000 GNF <br><br>
+					<button>Achetez</button>
+				</div>
+				<br style="clear:both;">
+			</div>
+		<!-- fin de Vetement tradionnelle -->
+
+		<!-- Debut Du lots costume -->
+		<div id="costume"> Smooking de Luxe </div>
+		<div class="costard">
+			<div class="veste">
+				<img src="img/c2.JPG" class="V"><br><br>
+				Nom : Veste Costard <br>
+				Prix : 2.000.000 GNF <br><br>
+				<button>Achetez</button>
+			</div>
+			<div class="veste">
+				<img src="img/c5.JPG" class="V"><br><br>
+				Nom : Veste Classique <br>
+				Prix : 1.500.000 GNF <br><br>
+				<button>Achetez</button>
+			</div>
+			<div class="veste">
+				<img src="img/c7.JPG" class="V"><br><br>
+				Nom : Veste sur Mesure <br>
+				Prix : 3.000.000 GNF <br><br>
+				<button>Achetez</button>
+			</div>
+			<div class="veste">
+				<img src="img/c3.JPG" class="V"><br><br>
+				Nom : veste Gentlemen <br>
+				Prix : 2.500.000 GNF <br><br>
+				<button>Achetez</button>
+			</div>
+			<div class="veste">
+				<img src="img/c4.JPG" class="V"><br><br>
+				Nom : veste simple <br>
+				Prix : 1.000.000 GNF <br><br>
+				<button>Achetez</button>
+			</div>
+			<br style="clear:both;">
+		</div>
+		<!-- Fin Du lots costume -->
+
+		<!-- Debut du lots chemise t-shirt -->
+		<div id="chemise">Chemise & T-shirt</div>
+		<div class="t-shirt">
+			<div class="shirt">
+				<img src="img/ch1.jpg" class="h"><br><br>
+				Nom : Chemise Laine<br>
+				Prix : 500.000 GNF<br><br>
+				<button>Achetez</button>
+			</div>
+			<div class="shirt">
+				<img src="img/ch2.jpg" class="h"><br><br>
+				Nom : Chemise Carreau<br>
+				Prix : 200.000 GNF <br><br>
+				<button>Achetez</button>
+			</div>
+			<div class="shirt">
+				<img src="img/ch3.jpg" class="h"><br><br>
+				Nom : Chemise Classic <br>
+				Prix : 150.000 GNF <br><br>
+				<button>Achetez</button>
+			</div>
+			<div class="shirt">
+				<img src="img/ch4.jpg" class="h"><br><br>
+				Nom : Chemise Simple<br>
+				Prix : 130.000 GNF<br><br>
+				<button>Achetez</button>
+			</div>
+			<div class="shirt">
+				<img src="img/ch5.jpg" class="h"><br><br>
+				Nom : Chemise blamche<br>
+				Prix : 100.000 GNF<br><br>
+				<button>Achetez</button>
+			</div>
+			<br style="clear:both;">
+			<div class="t-shirt2">
+				<div class="shirt2">
+				 	<img src="img/t3.jpg" class="h2"><br><br>
+					 Nom : T-Shirt Classic<br>
+				 	Prix : 100.000 GNF<br><br>
+					 <button>Achetez</button>
+				</div>
+				<div class="shirt2">
+					<img src="img/t1.jpg" class="h2"><br><br>
+				    Nom : Bolder<br>
+					Prix : 130.000 GNF<br><br>
+				<button>Achetez</button>
+				</div>
+				<div class="shirt2">
+					<img src="img/t2.jpg" class="h2"><br><br>
+					Nom : Black Shirt<br>
+					Prix : 300.000 GNF<br><br>
+				<button>Achetez</button>
+				</div>
+				<div class="shirt2">
+					<img src="img/t5.jpg" class="h2"><br><br>
+					Nom : Lacoste<br>
+					Prix : 150.000 GNF<br><br>
+					<button>Achetez</button>
+				</div>
+				<div class="shirt2">
+					<img src="img/t8.jpg" class="h2"><br><br>
+					Nom : Polo<br>
+					Prix : 200.000 Gnf<br><br>
+					<button>Achetez</button>
+				</div>
+				<br style="clear:both">
+			</div>
+		</div>
+		<!-- Fin du lots chemise t-shirt -->
+
+		<!-- Debut du lots Pantalons -->
+		<div id="pantalon">Nos Pantalons</div>
+		<div class="painter">
+			<div class="paint">
+				<img src="img/p6.jpg" class="p"><br><br>
+				Nom : Jeans chlore<br>
+				Prix : <br><br>
+				<button>Achetez</button>
+			</div>
+			<div class="paint">
+				<img src="img/p1.jpg" class="p"><br><br>
+				Nom : jeans Clairs<br>
+				Prix : 100.000 GNF<br><br>
+				<button>Achetez</button>
+			</div>
+			<div class="paint">
+				<img src="img/p2.jpg" class="p"><br><br>
+				Nom : Jeans Slim<br>
+				Prix : 150.000 GNF<br><br>
+				<button>Achetez</button>
+			</div>
+			<div class="paint">
+				<img src="img/p4.jpg" class="p"><br><br>
+				Nom : Jeans Brocks<br>
+				Prix : 200.000 GNF<br><br>
+				<button>Achetez</button>
+			</div>
+			<div class="paint">
+				<img src="img/p5.jpg" class="p"><br><br>
+				Nom : Jeans degradés<br>
+				Prix : 250.000 GNF<br><br>
+				<button>Achetez</button>
+			</div>
+			<br style="clear:both;">
+		</div>
+		<!-- fin du lots Pantalons -->
+
+		<!-- Debut du lots chaussure -->
+		<div id="chaussure">Chaussure de Qualite</div>
+		<div class="padè">
+			<div class="sankiri">
+				<img src="img/shoe11.jpg" class="s"><br><br>
+				Nom : Soulier Italien <br>
+				Prix : 900.000 GNF <br><br>
+				<button>Achetez</button>
+			</div>
+			<div class="sankiri">
+				<img src="img/shoe9.jpg" class="s"><br><br>
+				Nom : Soulier Classique<br>
+				Prix : 700.000 GNF<br><br>
+				<button>Achetez</button>
+			</div>
+			<div class="sankiri">
+				<img src="img/shoe13.jpg" class="s"><br><br>
+				Nom : Moquecent<br>
+				Prix : 500.000 GNF<br><br>
+				<button>Achetez</button>
+			</div>
+			<div class="sankiri">
+				<img src="img/shoe4.jpg" class="s"><br><br>
+				Nom : Adidas<br>
+				Prix : 300.000 GNF<br><br>
+				<button>Achetez</button>
+			</div>
+			<div class="sankiri">
+				<img src="IMG/SHOE2.jpg" class="s"><br><br>
+				Nom : Shoes Sportifs<br>
+				Prix : 200.000 GNF<br><br>
+				<button>Achetez</button>
+			</div>
+			<br style="clear:both;">
+		</div>
+		<!-- fin du lots chaussure -->
+
+		<!-- Debut du lots Montres -->
+		<div id="montre">Nos Montres</div>
+		<div class="watch">
+			<div class="mont">
+				<img src="img/m4.jpg" class="m"><br><br>
+				Nom : Rolex Complet <br>
+				Prix : $100.000<br><br>
+				<button>Achetez</button>
+			</div>
+			<div class="mont">
+				<img src="img/m3.jpg" class="m"><br><br>
+				Nom : Rolex Diamatée<br>
+				Prix : $70.000<br><br>
+				<button>Achetez</button>
+			</div>
+			<div class="mont">
+				<img src="img/m1.jpg" class="m"><br><br>
+				Nom : Philip Watch<br>
+				Prix : $10.000<br><br>
+				<button>Achetez</button>
+			</div>
+			<div class="mont">
+				<img src="img/m2.jpg" class="m"><br><br>
+				Nom : Wrist Watch<br>
+				Prix : $5.000<br><br>
+				<button>Achetez</button>
+			</div>
+			<div class="mont">
+				<img src="img/m7.jpeg" class="m"><br><br>
+				Nom : Wrist&Ring<br>
+				Prix : $3.000<br><br>
+				<button>Achetez</button>
+			</div>
+			<br style="clear:both;">
+		</div>
+		<!-- fin du lots montres -->
+	</main>
+	<footer>
+		
+	</footer>
+</body>
+</html>

@@ -1,0 +1,80 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+
+}
+
+#contenu{
+	
+}
+
+#wrap{
+	
+	margin: 50px;
+	margin: auto;
+	margin-top: 30px;
+	padding: 15px;
+	
+}
+
+h2{
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-style: italic;
+}
+
+.formulaire{
+	width: 500px;
+	padding: 430px;
+	border: 1px solid black;
+	padding: 15px;
+	margin: 50px;
+	margin: auto;
+	background-color: springgreen;
+}
+
+.formulaire form label{
+	text-transform: uppercase;
+	font-weight: bold;
+	
+}
+
+.formulaire form input{
+	width: 100%;
+	margin: 10px;
+	padding: 10px;
+}
+
+.gender, .select{
+	margin-bottom: 15px;
+}
+
+.formulaire select{
+	width: 100%;
+	padding: 5px;
+
+}
+
+button{
+	width: 100%;
+	padding: 10px;	
+	background-color: lightgreen;
+	color: #dff;
+	font-size: 1.5em;
+	text-transform: uppercase;
+}
+
+button:hover{
+	background-color: springgreen;
+	color: #dff;
+	font-weight: bold;
+}
+
+.footer{
+	display: flex;
+	text-align: center;
+	margin-left: 125px;
+
+}

@@ -1,0 +1,224 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	list-style: none;
+	text-decoration: none;
+}
+
+#main{}
+
+#main .menu-lateral{
+	background-color: #050A30;
+	height: 100%;
+	width: 230px;
+	padding: 20px 0;
+	top: 0;
+	left: 0;
+	position: fixed;
+}
+
+.user{
+	display: block;
+	width: 150px;
+	height: 150px;
+	margin: auto;
+	border: 1px solid black;
+	border-radius: 15px;
+}
+
+#main .menu-lateral h2{
+	text-align: center;
+	text-transform: uppercase;
+	color: whitesmoke;
+	margin-top: 10px;
+}
+
+#main .menu-lateral p{
+	font-style: italic;
+	text-align: center;
+	color: whitesmoke;
+}
+
+#main ul li a{
+	display: block;
+	font-size: 12px;
+	margin: 10px;
+	padding: 10px 20px;
+	position: relative;
+	color: whitesmoke;
+	border-bottom: 2px solid black;
+
+}
+
+#main ul li a:hover, .acc{
+	background-color: springgreen;
+	color: whitesmoke !important;
+	border-right: 1px solid rgb(5, 68, 104);
+	font-weight: bold;
+	font-size: 1em;
+}
+	 /*fin menu lateral*/
+
+	 /*debut contenu du blog*/
+
+.section{
+	width: calc(100% - 230px);
+	margin-left: 230px;
+}
+.bar{
+	background-color: rgb(32, 44, 69);
+	height: 50px;
+	padding: 0px 30px;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+}
+.lien a{
+	font-size: 2.4em;
+	color: #fafbff;
+	font-weight: bold;
+}
+
+.lien a:hover{
+	font-size: 2.8em;
+	color: springgreen;
+}
+
+.banner{
+	width: 100%;
+	height: 180px;
+	background-color: darkseagreen;
+}
+
+.ban{
+	color: whitesmoke;
+	font-size: 1.4em;
+	text-transform: uppercase;
+	padding-top: 25px;
+	text-align: center;
+}
+.barre{
+	background-color: #050A30;
+	width: 50%;
+	height: 10px;
+	margin: 15px auto 0 auto;
+	display: block;
+}
+.btn{
+	text-align: center;
+	margin-top: 20px;
+}
+
+.btn button:hover{
+	color: whitesmoke;
+	background-color: springgreen;
+}
+
+.b1{
+	height: 230px;
+	display: flex;
+	margin-top: 15px;
+	padding: 0px 40px;
+}
+
+.im1 img{
+	width: 100%;
+}
+ 
+.art1{
+	margin-left: 30px;
+}
+
+.b2{
+	height: 230px;
+	display: flex;
+	margin-top: -35px;
+	padding: 0px 40px;
+}
+
+.im2 img{
+	width: 100%;
+}
+
+.image{}
+
+.art2{
+	margin-left: 30px;
+}
+
+.banner2{
+	background-color: darkseagreen;
+	width: 100%;
+	height: 200px;
+}
+
+.ban2{
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 1.5em;
+	color: white;
+	padding-top: 20px;
+}
+
+.barre2{
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	padding-top: 10px;
+}
+
+.barre2 input{
+	padding: 4px 70px;
+	padding-left: 0px;
+}
+
+.barre2 button{
+	font-size: 12px;
+	padding: 5px;
+	
+}
+
+.barre2 button:hover{
+	color: whitesmoke;
+	background-color: springgreen;
+}
+
+.b3{
+	height: 230px;
+	display: flex;
+	padding: 0px 30px;
+	margin-top: 10px;
+}
+
+.im3 img{
+	width: 100%;
+}
+
+.art3{
+	margin-left: 20px;
+}
+
+.b4{
+	height: 250px;
+	display: flex;
+	padding: 0px 30px;
+	margin-top: -40px;
+}
+
+.im4 img{
+	width: 100%;
+}
+
+.art4{
+	margin-left: 20px;
+}
+
+
+
+
+
+
+
+
+	/*debut contenu du blog*/}
